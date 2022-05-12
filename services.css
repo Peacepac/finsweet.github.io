@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+.first-section {
+    display: flex;
+    align-items: center;
+}
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+}
+.road-assistance {
+    display: flex;
+    padding-left: 20px;
+}
+
+.nav-bar ul li {
+    margin-right: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bar {
+    border-right: 2px solid #ccc;
+    font-weight: bold;
+}
+
+ .whatsapp-icon {
+    margin-right: 10px;
+}
+
+.div-banner {
+    display: flex;
+}
+
+#banner-section .text-section{
+    width: 50%;
+} 
+
+.image-container {
+    width: 55%;
+}
+
+#banner-section, #quote-section {
+    padding: 80px 0;
+}
+
+.image-container {
+    background-image: url(https://res.cloudinary.com/peacepac/image/upload/v1652018331/oZOb6z2hWTU_bsjjoi.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 68vh;
+}
+
+.text-section{
+    background-color: #1E1B1B;
+    color:#ffffff;
+    text-align: center;
+    padding:50px;
+}
+
+.text-section h1 {
+    /* font-size: 43px; */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    color: #F2F2F2;
+}
+.text-section p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    text-align: justify;
+    /* or 32px */
+
+
+    /* Light Grey */
+
+    color: #F2F2F2;
+}
+
+
+.btn {
+    padding: 16px 40px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 30px;
+    background: #FF6433;
+    border-radius: 12px;
+    display: inline-block;
+    color: #fff;
+    border: none;
+}
+
+/* maintainance and services */
+
+.bg{
+   background: #F5F5F5;
+   padding-top: 50px;
+}
+.one-section{
+    background-color: #FFFFFF;
+    width: 624px;
+    height: 548px;
+
+
+ 
+}
+.one-section img{
+    width:100%;
+    padding: 30px;
+    /* padding:30px;
+   */
+}
+.one-section h3{
+    padding:20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #1E1B1B;
+}
+.one-section p{
+    padding:20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #232536;
+    opacity: 0.6;
+}
+.mechanic{
+    display: flex;
+}
+/* #services .one-section .image-box {
+    width: 6%;
+    margin-right: 10px;
+}
+
+#services .one-section .image-box img {
+    width: 100%;
+}
+#services .one-section .text-box {
+    width: 50%;
+}
+
+#services ul li {
+    margin-bottom: 20px;
+}
+#services .one-section h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+} */
+.btn2{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    padding:20px;
+}
+.btn2:hover{
+    text-decoration: unset;
+    color: #f66539;
+    font-weight: bolder;
+}
+/* #services .one-section .text-box h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+} */
+
+.two-form-section{
+    padding-left:30px;
+}
+form{
+    margin-top: 20px;
+    
+}
+.box-alignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.box-set{
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    height: 180px;
+    width: 200px;
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    color: #1E1B1B;
+}
+.box-set p{
+    padding-top: 5px;
+}
+.box-set:hover{
+    background-color: #FF9564;
+    color: white;
+    font-weight: bold;
+}
+.selected{
+    background-color: #FF6433;
+    color: white;
+    font-weight: bold;
+}
+
+/* our procedure or process section  */
+
+.padding-section{
+    padding: 8% 0;
+}
+.process-text{
+    width: 45%;
+    margin: 0 auto;
+}
+.process-text h2{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+/* .div-icon{
+    display: inline-block;
+} */
+.div-icon p{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+/* line-height: 36px; */
+letter-spacing: -0.03em;
+color: #1E1B1B;
+}
+
+.div-image-con{
+    padding-top: 60px;
+}
+.repair-img{
+    
+    margin-right: 10px;
+}
+.div-image-con{
+    display: flex;
+    
+   
+}
+.process-taken{
+    width: 45%;
+    margin: 0 auto;
+}
+.get-quote h4{
+    font-size: 26px;
+    padding-top: 48px;
+}
+.get-quote p{
+    color: #1E1B1B;
+    opacity: 0.6;
+}
+.img-div{
+    display: flex;
+    width: 50px;
+    margin-right: 20px;
+}
+
+#footer-section{
+    background: #1E1B1B;
+    opacity: 0.98;
+    padding:80px;
+}
+.footer-section-content-box{
+    display:flex;
+    justify-content: space-around;
+}
+
+.footer-section-content1{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 200%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    width:300px;
+    
+}
+.contact1 h5{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: unset;
+    font-size: 12px;
+    line-height: 175%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.contact1 p{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.sub-footer{
+    display:flex;
+    justify-content: space-around;
+    background-color: #1E1B1B;
+    padding:50px;
+}
+.sub-footer h4{
+    color:#ffffff;
+}
+
+.sub-content1 a{
+    text-decoration: none;
+    padding-left:10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 10px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.copy{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 28px;
+    color: #939191;
+}
+
+
+.socials i{
+    padding-left:10px;
+    padding-top:50px;
+}
